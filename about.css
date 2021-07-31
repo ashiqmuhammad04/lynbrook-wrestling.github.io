@@ -173,7 +173,7 @@
 
 .parallax_1 { 
     
-  background-image: url("/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/team_pic_1.jpeg");
+  background-image: url("team_pic_1.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,7 +187,7 @@
 }
 
 .parallax_2 { 
-  background-image: url("/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/team_without_me.jpeg");
+  background-image: url("team_without_me.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@
 }
 
 .parallax_3 { 
-  background-image: url("/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/coaches.jpeg");
+  background-image: url("coaches.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -203,7 +203,7 @@
 }
 
 .parallax_4 { 
-  background-image: url("/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/based_posting.jpeg");
+  background-image: url("based_posting.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
