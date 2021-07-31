@@ -187,7 +187,6 @@ button {
   border: none;
   outline: 0;
   display: inline-block;
-  margin-top:39px;
   padding: 8px;
   color: white;
   background-color: #000;
@@ -213,19 +212,7 @@ button:hover, a:hover {
  
 }
 
-.card_pranav { 
-  
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width:300px;
-  margin: 10px;
-  text-align: center;
-  
-  
-}
 
-.card_pranav button {
-  margin-top:0px;
-}
 
 .margin { 
 
