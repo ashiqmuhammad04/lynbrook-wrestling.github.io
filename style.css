@@ -275,12 +275,10 @@ a {
 
 
 
-  @media (max-width:480px to 800px) { 
-      .right_side .logo { 
-          font-size:0.8em;
-      }
-  }
-
+  .right_side .logo {
+      max-width:100%;
+      max-height:100%
+}
   
 #based { 
     text-decoration: none;
