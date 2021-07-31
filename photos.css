@@ -275,7 +275,7 @@ a {
 
 .parallax { 
 
-  background-image: url("/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/team_pic_1.jpeg");
+  background-image: url("team_pic_1.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
