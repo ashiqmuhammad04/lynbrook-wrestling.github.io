@@ -275,7 +275,7 @@ a {
 
 .parallax { 
 
-  background-image: url("team_pic_1.jpeg");
+  background-image: url("/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/team_pic_1.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -330,6 +330,12 @@ h1 {
   perspective: 1000px; 
 }
 
+.flip-card-front img {
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+
+}
 
 .flip-card-inner {
   position: relative;
@@ -338,11 +344,6 @@ h1 {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-}
-
-.flip-card-front img {
-  max-width: 100%;
-  max-height: 100%;
 }
 
 
@@ -370,6 +371,15 @@ h1 {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+.flip-card-back p { 
+  padding: 20px;
+  font-size: 2.3vh;
+}
+
+.flip-card-back h1 { 
+  font-size:2vh;
 }
 
 section{ 
