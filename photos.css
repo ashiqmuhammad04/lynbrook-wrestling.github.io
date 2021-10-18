@@ -400,3 +400,7 @@ section{
   }
 }
 
+.flip-card-back p { 
+  font-size:0.9vw;
+}
+
