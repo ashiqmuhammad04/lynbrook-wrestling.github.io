@@ -77,15 +77,26 @@
     flex-direction: column;
     font-family:'Noto Serif JP',serif;
 }
+@keyframes growth {
+    0% {
+        font-size: 0.1vw;
 
+    }
+    100% {
+        font-size: 12vw;
+    }
+}
 .right_side .logo .firstword { 
     transition: 1s;
     color:#8a8a8a;
-    font-size: 12vw;
     font-weight:600;
     text-align:center;
+    animation: growth 3s;
+    animation-fill-mode: forwards;
 
 }
+
+
 .right_side:hover .logo .firstword{ 
     font-weight:600;
     /* color:rgba(206, 50, 50, 0.596);*/ 
@@ -94,8 +105,11 @@
 .right_side .logo .secondword { 
     transition: 1s;
     transition-delay:0.5s;
+    animation-delay:1s;
+    animation: growth 3.8s;
+    animation-fill-mode: forwards;
     color:#8a8a8a;
-    font-size: 1em;
+    /*font-size: 1em;*/
     font-weight:600;
     text-align:center;
 }
@@ -122,7 +136,7 @@
 
 .parallax { 
 
-  background-image: url("team_pic_1.jpeg");
+  background-image: url("/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/team_pic_1.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -260,7 +274,7 @@ a {
   .footer-distributed p.footer-links a:hover{text-decoration:underline;}
   
   
-  @media (max-width: 600px) {
+  @media (max-width:600px) {
     .footer-distributed .footer-left, .footer-distributed .footer-right {
       text-align: center;
     }
@@ -271,10 +285,13 @@ a {
     .footer-distributed .footer-left p.footer-links {
       line-height: 1.8;
     }
+
+
   }
 
 
-
+  
+  
   
 #based { 
     text-decoration: none;
