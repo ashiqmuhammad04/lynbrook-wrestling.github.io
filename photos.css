@@ -290,17 +290,17 @@ a {
 
 #team_photos_txt { 
     text-align:center;
-    font-size:500%;
+    font-size:7vw;
     color: #fff;
     letter-spacing:3px;
 }
 
 
-@media only screen and (max-device-width: 1024px) {
+/* @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
     }
-}
+} */
 
 
 h1 { 
