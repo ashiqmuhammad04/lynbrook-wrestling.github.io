@@ -303,3 +303,8 @@ a {
 #based:hover { 
     color:seagreen;
 }
+@media (max-width:1000px) { 
+  .nav_link_wrapper a { 
+    font-size:1.8vw;
+  }
+}
