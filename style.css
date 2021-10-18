@@ -116,7 +116,7 @@
 .right_side:hover .logo .secondword { 
     font-weight:600; 
     /*color:rgba(72, 72, 219, 0.274);*/
-    color:#13c9e9;
+    color:#254670;
 }
 /* .footer { 
     position:relative;
@@ -313,6 +313,6 @@ a {
     height:100%;
     left:0;
     right:0;
-    background:url('/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/team_pic_1.jpeg');
+    background:url('team_pic_1.jpeg');
     }
 }
