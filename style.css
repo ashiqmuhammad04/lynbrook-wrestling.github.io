@@ -307,4 +307,12 @@ a {
   .nav_link_wrapper a { 
     font-size:1.8vw;
   }
+  .parallax:before { 
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    right:0;
+    background:url('/Users/MuhammadAshiq/Desktop/lynbrook_wrestling_website/imgs/team_pic_1.jpeg');
+    }
 }
