@@ -223,3 +223,13 @@ img {
 }
 
 
+@media (max-width: 1000px) { 
+  .flexboxer { 
+    display: flex; 
+    flex-direction:column;
+    align-items: center;
+  }
+
+}
+
+
