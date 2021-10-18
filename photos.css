@@ -23,7 +23,7 @@
 .nav_wrapper > .left_side > div { 
 
     margin-right:20px;
-    font-size:0.9em;
+    font-size:0.9vw;
     font-family: 'Times New Roman', Times, serif;
    
 }
@@ -385,5 +385,18 @@ h1 {
 section{ 
   background-color: grey;
   margin:25px;
+}
+
+
+@media (max-width: 1000px) { 
+  .individual_photos_wrapper { 
+    display: none;
+  }
+  .ind_foto_h1 { 
+    display:none;
+  }
+  .nav_link_wrapper a {
+    font-size: 1.8vw;
+  }
 }
 
